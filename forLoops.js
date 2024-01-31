@@ -25,4 +25,6 @@ var backwardsArray = [];
 for (i = 10; i > 0; i -= 1){
     backwardsArray.push(i)
 }
-console.log(backwardsArray)
+//console.log(backwardsArray)
+
+ 
