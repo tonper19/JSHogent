@@ -16,3 +16,19 @@ myDog.name = "Honey Pie"; // This is the easiest way to change a property's valu
 myDog.bark = "woof"; // an easy way to add properties
 
 delete myDog.name; // to delete a specific property
+
+let myStorage = {
+    "car": {
+        "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+        },
+        "outside": {
+            "trunk": "jack"
+        }
+    }
+};
+
+let gloveBoxContents = myStorage.car.inside["glove box"];
+console.log(gloveBoxContents);
+
